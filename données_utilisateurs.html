@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Données utilisateurs</title>
+
+        <!-- Link des fichiers CSS -->
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Typograhies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <body class="body_data_user background-color-white">
+            <div class="header">
+                <img src="ressources/icons/Logo.png" alt="Logo du projet">
+                <div class="container_button_account">
+                    <button class="button_green_medium wth27" type="button" ><a class="color-white fnt_Oswald fnt_wght_bold fnt_size_medium" href="">Mon compte</a></button>
+                    <div class="green_border wth27"></div>
+                </div>
+            </div>
+        
+            <div class="container_button_card margin-top">
+                <button class="button_green_medium wth30"><a class="color-white fnt_Oswald fnt_wght_bold fnt_size_medium" href=""> Choisir une carte</a></button>
+                <div class="green_border_draw mt-1_5 wth31"></div>
+            </div>
+        
+        
+        
+            <!-- NAV Account-->
+
+            <div class="nav_side margin-top_nav flex-dct-c d-flex">
+                <div class="box_green_doc">
+                    <img src="ressources/icons/document-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+        
+                <div class="box_green_info">
+                    <img src="ressources/icons/user-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+        
+                <div class="box_green_contact">
+                    <img src="ressources/icons/contact-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+        
+                <div class="box_green_card">
+                    <img src="ressources/icons/card-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+                
+                <div class="box_green_data_user">
+                    <img src="ressources/icons/user-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+        
+                <div class="box_green_exit">
+                    <img id="icon_log_out" src="ressources/icons/log-out-icon.svg" alt="">
+                    <div class="box_green"></div>
+                </div>
+            </div>
+        
+            <div class="container_search_bar_img">
+                <!-- Formateurs -->
+                <img class="img_doodlecream" src="ressources/doodles/icecreamdoodle.png" alt="">
+                <div class="button_user_category">
+                <p>Formateurs</p>
+                </div>
+                <input type="text" placeholder="Recherche..."></input>
+                <img class="loupe_icon" src="/ressources/icons/loupe-icon.svg" alt="Icône de loupe">
+
+                <!-- Apprenants -->
+                <img class="img_selfiedoodle" src="/ressources/doodles/selfiedoodle.png" alt="">
+                <div class="button_user_category">
+                <p>Apprenants</p>
+                </div>
+                <input type="text" placeholder="Recherche..."></input>
+                <img class="loupe_icon" src="/ressources/icons/loupe-icon.svg" alt="Icône de loupe">
+            </div>
+
+            <section class="container_data_users">
+
+                <div class="data_user1">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+            </div>
+
+                <div class="data_user2">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+                </div>
+
+                <div class="data_user3">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+                </div>
+
+                <div class="data_user4">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+                </div>
+
+                <div class="data_user5">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+                </div>
+
+                <div class="data_user6">
+                    <form class="form_users_datas" action="" method="post">
+                        <label for="nom">Nom</label>
+                        <input class="btn_form_users_datas" type="text" id="nom" name="nom" required>
+                
+                        <label for="prenom">Prénom</label>
+                        <input class="btn_form_users_datas" type="text" id="prenom" name="prenom" required>
+                
+                        <label for="email">Email</label>
+                        <input class="btn_form_users_datas" type="email" id="email" name="email" required>
+                
+                        <label for="dateNaissance">Date de naissance</label>
+                        <input class="btn_form_users_datas" type="date" id="dateNaissance" name="dateNaissance" required>
+                    </form>
+                    
+                        <img class="bin_svg" src="./ressources/icons/bin-icon.svg" alt="Icône poubelle">
+                </div>
+            </section>
+                <button class="btn_refresh" type="button"> More account</button>
+            
+
+    </body>
+</html>

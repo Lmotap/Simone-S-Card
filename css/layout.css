@@ -1,0 +1,1099 @@
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.body_main {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 220vh;
+}
+
+.body_draw_card {
+    height: 280vh;
+}
+
+.body_data_user {
+    height: 220vh;
+    margin: 0;
+}
+
+/************************************* 
+            UTILITY CLASS 
+****************************************/
+
+.ovfl_hidden {
+    overflow: hidden;
+}
+
+.ht0 {
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-dct-c {
+    flex-direction: column;
+}
+
+.flex-dct-r {
+    flex-direction: row;
+}
+
+.margin-left-10 {
+    margin-left: 10rem;
+}
+
+.mrg-top3 {
+    margin-top: 3%;
+}
+
+.margin-top {
+    margin-top: 7rem;
+}
+
+.margin-top_nav {
+    padding-top: 4rem;
+}
+
+/************************************* 
+            UTILITY CLASS 
+****************************************/
+
+
+/************************************* 
+            PAGE D'INSCRIPTION 
+****************************************/
+
+.formInscription label {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    margin-left: 10.5rem;
+    margin-top: 4rem;
+    transform: translateY(-2rem);
+}
+
+.img_container_inscription {
+    position: absolute;
+    right: 0;
+    transform: translateX(-20rem);
+    bottom: 16rem;
+}
+
+.img_container_login {
+    position: absolute;
+    right: 0;
+    transform: translateX(-20rem);
+}
+
+.container_titre_inscription_login {
+    padding-left: 10em;
+    z-index: 1;
+    position: relative;
+}
+
+/************************************* 
+            PAGE D'INSCRIPTION 
+****************************************/
+
+/* Ellipse décorant l'img des pages login et inscription */
+
+.ellipse_img {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    transform: translate(-33rem,7rem);
+}
+
+.ellipse_right {
+    margin-right: -36rem;
+    margin-top: -15rem;
+}
+
+.ellipse_bottom {
+    margin-top: 39rem;
+    margin-right: -10rem;
+}
+
+.ellipse_bottom_connecter {
+    margin-right: -10rem;
+    margin-top: 4rem;
+}
+
+.ellipse_top {
+    margin-top: -15em;
+    margin-right: 12rem;
+    width: 10%;
+}
+
+/* Carte mise par dessus le titre */
+
+.cardGreen {
+        position: absolute;
+        z-index: 0;
+        transform: translate(12rem, -19.5em);
+        height: auto;
+}
+
+.cardGreen_connexion {
+    transform: translate(12rem,-22rem);
+}
+
+.lien_mdp_login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 22rem;
+}
+
+.lien_mdp_login p {
+    padding-top: 1rem;
+}
+
+.lien_mdp_login_bis {
+    margin-top: -0.5rem;
+}
+
+.lien_mdp_login_bis p {
+    padding-left: 1rem;
+}
+
+.already_account_txt {
+    padding-left: 1rem;
+}
+
+.knowledge_label {
+    padding-left: 4rem;
+}
+
+/* Checkbox */
+
+.checkbox_input {
+    transform: translate(10rem,-2.5rem);
+}
+
+.input[type='checkbox']:checked:before
+{
+    position:absolute;
+    top: 3%;
+    left: 2%;
+}
+
+/************************************* 
+            PAGE SE CONNECTER
+****************************************/
+.se_connecter_texte {
+    transform: translateY(-2rem);
+}
+
+.formulaire_se_connecter {
+    margin-top: 13rem;
+}
+
+/************************************* 
+            BUTTON GREEN 
+****************************************/
+
+
+.container_btn_green__medium {
+    padding-left: 14rem;
+    transform: translateY(-2rem);
+    height: 0;
+}
+
+.button_se_connecter {
+    margin-top: 5rem;
+}
+
+/************************************* 
+            PAGE D'ACCUEIL
+****************************************/
+
+.container_hero_card {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.slogan_main {
+    white-space: pre-line;
+    line-height: 1;
+}
+
+.button_hero_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.5rem;
+}
+
+.button_hero_card button{
+    position: relative;
+    bottom: 2.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: -3rem;
+}
+
+.hero_card_left {
+    position: absolute;
+    left: 0;
+    rotate: 40deg;
+    margin-left: -3rem;
+}
+
+.hero_card_right {
+    position: absolute;
+    right: 0;
+    rotate: 140deg;
+    margin-right: -3rem;
+}
+
+.container_card_flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.box_card1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.box_card1 img, 
+.box_card1 p, 
+.box_card1 h3 {
+    position: absolute;
+    padding-left: 2cap;
+}
+
+.box_card1 h3 {
+    top: -1rem;
+    margin-left: 6.3rem;
+}
+
+.box_card1 p {
+    left: 0;
+    right: 0;
+    margin-left: 5rem;
+}
+
+
+.box_card2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.box_card2 img, 
+.box_card2 p, 
+.box_card2 h3 {
+    position: absolute;
+    padding-left: 2rem;
+}
+
+.box_card2 h3 {
+    top: -1rem;
+    margin-left: 6.3rem;
+}
+
+.box_card2 p {
+    left: 0;
+    right: 0;
+    margin-left: 5rem;
+}
+
+.box_card3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.box_card3 img, 
+.box_card3 p, 
+.box_card3 h3 {
+    position: absolute;
+    padding-left: 2rem;
+}
+
+.box_card3 h3 {
+    top: -1rem;
+    margin-left: 6.3rem;
+}
+
+.box_card3 p {
+    left: 0;
+    right: 0;
+    margin-left: 5rem;
+}
+
+
+.decoration_card {
+    width: 8%;
+    height: 60%;
+    rotate: -35deg;
+    position: absolute;
+    border: 5px solid #2E5939;
+    left: -2rem;
+    top: -2rem;
+    border-radius: 10%;
+}
+*/
+.container_button_card {
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_button_account {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 3rem;
+    padding-right: 3rem;
+}
+
+.green_border {
+        width: 24rem;
+        height: 4.2rem;
+        border-radius: 35px;
+        border: 2px solid #2E5939;
+        position: relative;
+        bottom: 3.5rem;
+        display: flex;
+}
+
+.green_border_draw {
+    width: 31rem;
+    height: 4.2rem;
+    border-radius: 35px;
+    border: 2px solid #2E5939;
+    position: absolute;
+}
+
+.container_button_account :nth-child(0n+2) {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -0.5rem;
+    width: 24rem;
+    right: 2.5rem;
+}
+
+.container_button_account :nth-child(0n+1) {
+    width: 20%;
+}
+
+/************************************* 
+            PAGE D'ACCUEIL
+****************************************/
+
+/************************************* 
+            PAGE COMPTE
+****************************************/
+
+/* NAV SIDE Account */ 
+
+.nav_side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    margin-top: -0.5rem;
+    width: 8%;
+}
+
+.box_green_exit :nth-child(0n+2) {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.box_green_exit {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.mt-1_5{
+    margin-bottom: -1.5rem;
+}
+
+#icon_log_out {
+    transform: translate(-1rem,-1rem);
+}
+
+
+.box_green {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 20px;
+    background-color: #2E5939;
+}
+
+.nav_side img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1rem;
+    bottom: -4rem;
+    z-index: 99;
+    width: 3rem;
+    height: 3rem;
+}
+
+/************************************* 
+            FORMULAIRE CONTACT
+****************************************/
+
+.form_contact {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.contact_textarea {
+    padding-top: 3rem;
+    margin-left: 5rem;
+}
+
+.contact_textarea textarea {
+    width: 92rem;
+    height: 22rem;
+    border-radius: 20px;
+    border: 4px solid #2E5939;
+}
+
+.contact_textarea label {
+    position: relative;
+    right: 5rem;
+}
+
+.form_contact input {
+    margin-right: 20rem;
+    margin-left: 5rem;
+}
+
+.form_contact label {
+    padding-bottom: 0.5rem;
+    padding-left: 5rem;
+}
+
+.button_submit {
+position: relative;
+left: 38.8em;
+margin-top: 1rem;
+font-family: "Oswald";
+font-weight: 700;
+background-color: #2E5939;
+font-size: 2em;
+color: white;
+width: 20rem;
+height: 3rem;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+}
+
+
+
+/************************************* 
+        FIN DE FORMULAIRE CONTACT
+****************************************/
+
+
+/************************************* 
+        PAGE TIREZ UNE CARTE
+****************************************/
+
+.container_category_draw h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: "Oswald";
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.wrapper_category1 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.box1_category {
+    width: 500px;
+    height: 100px;
+    transform: skewX(-30deg);
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.box1_category p {
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    transform: none;
+    transform: skewX(30deg);
+}
+
+.box2_category {
+    width: 500px;
+    height: 100px;
+    transform: skewX(30deg);
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.box2_category p {
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    transform: none;
+    transform: skewX(-30deg);
+}
+
+.box3_category {
+    width: 350px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper_category2 {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    padding-top: 1.5rem;
+}
+
+
+
+.box4_category {
+    width: 350px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.box5_category {
+    width: 500px;
+    height: 100px;
+    transform: skewX(30deg);
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper_category3 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 2rem;
+}
+
+
+
+.box5_category p {
+    transform: skewX(-30deg);
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.box6_category {
+    width: 500px;
+    height: 100px;
+    transform: skewX(-30deg);
+    background-color: #2E5939;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.box6_category p {
+    transform: skewX(30deg);
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.container_category_draw img {
+    width: 15%;
+    height: 10%;
+}
+
+.wrapper_reading_doodle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -19rem;
+}
+
+/* Séparateur */
+
+.wrapper_separation_draw {
+    display: flex;
+    justify-content: center;
+}
+
+.separation_draw {
+    width: 90rem;
+    height: 0.2rem;
+    background-color: black;
+    margin-top: -7rem;
+}
+
+
+
+/* Section carte */
+
+.container_drawing_card {
+    height: 100Vh;
+    position: relative;
+    margin-top: -3rem;
+    margin-right: 5rem;
+}
+
+.wrapper_draw_cards {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-right: 40rem;
+}
+
+.card_draw1 {
+    width: 10rem;
+    height: 18rem;
+    border-radius: 20px;
+    background-color: #2E5939;
+    position: absolute;
+}
+
+.card_draw2 {
+    width: 10rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 5px solid #2E5939;
+    position: absolute;
+}
+
+.card_draw3 {
+    width: 10rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 5px solid #2E5939;
+    position: absolute;
+    bottom: -19.5rem;
+}
+
+.card_draw4 {
+    width: 10rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 5px solid #2E5939;
+    position: absolute;
+    bottom: -20.5rem;
+}
+
+/* Carte tiré */
+
+.card_draw_show {
+    width: 18rem;
+    height: 30rem;
+    border-radius: 20px;
+    border: 5px solid #2E5939;
+    right: 0;
+    position: absolute;
+    margin-right: 20rem;
+}
+
+.card_draw_show img {
+    position: absolute;
+    right: 0;
+    width: 11%;
+    transform: translate(10%,-10%);
+} 
+
+.card_draw_show p {
+    font-family: "Oswald";
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.container_button_draw {
+    display: flex;
+    justify-content: center;
+}
+
+.green_border_draw {
+    bottom: 32%;
+    width: 5rem;
+}
+
+.button_draw {
+    position: absolute;
+    bottom: 33%;
+}
+
+/* Formulaire réponse */
+
+.container_write_answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -15rem;
+}
+
+.container_write_answer label {
+    position: relative;
+    right: 27.5%;
+    padding-bottom: 0.5rem;
+    font-family: "Oswald";
+    font-size: 2em;
+    font-weight: 700;
+    color: #2E5939;
+}
+
+.button_sauvegarder_admin {
+    position: relative;
+    left: 26.5%;
+    margin-top: 1rem;
+    font-family: "Oswald";
+    font-weight: 700;
+    background-color: #2E5939;
+    font-size: 2em;
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.container_write_answer input {
+    width: 70%;
+    height: 35rem;
+    border: 4px solid #2E5939;
+    border-radius: 10px;
+}
+
+
+/************************************* 
+        PAGE DONNEES UTILISATEURS
+****************************************/
+
+.container_search_bar_img {
+    display: flex;
+    flex-direction: row;
+    z-index: 99;
+    position: relative;
+    bottom: 43%;
+    gap: 5%;
+    transform: translate(20%,15rem);
+}
+
+.img_doodlecream {
+    width: 16%;
+    position: absolute;
+    transform: translate(14%,-96%);
+}
+
+.img_selfiedoodle {
+    width: 16%;
+    position: absolute;
+    right: 46.5rem;
+    bottom: 2.6rem;
+}
+
+.button_user_category p {
+    position: relative;
+    bottom: 1.5rem;
+}
+
+
+.container_search_bar_img input {
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background-color: #808C80;
+    border: none;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 1rem;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
+.button_user_category {
+position: relative;
+font-family: "Oswald";
+font-weight: 700;
+background-color: #2E5939;
+font-size: 2em;
+color: white;
+width: 15rem;
+height: 3rem;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+text-align: center;
+}
+
+.loupe_icon {
+    position: relative;
+    width: 1.7%;
+    right: 7.2%;
+    transform: translateY(-5%);
+}
+
+/* Display grid utilisateurs */
+
+
+.container_data_users {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    width: 90rem;
+    margin-top: -36rem;
+    margin-left: 24rem;
+}
+
+.data_user1 {
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.bin_svg {
+    width: 60%;
+    position: relative;
+    transform: translate(0.5rem,22.5rem);
+}
+
+.form_users_datas {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.form_users_datas label {
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 1em;
+    padding-top: 0.5rem;
+}
+
+.data_user2 {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.data_user3 {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 2;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.data_user4 {
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.data_user5 {
+    display: grid;
+    grid-area: 3 / 1 / 4 / 2;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.data_user6 {
+    display: grid;
+    grid-area: 3 / 2 / 4 / 3;
+    border: 2px solid #2E5939;
+    grid-auto-flow: column;
+    width: 30rem;
+    height: 25rem;
+}
+
+.btn_refresh {
+    position: relative;
+    font-family: "Oswald";
+    font-weight: 700;
+    background-color: #2E5939;
+    font-size: 2em;
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    left: 82.5rem;
+    bottom: -2rem;
+}
+
+.btn_form_users_datas {
+    width: 25rem;
+    height: 1.5rem;
+    border: 2px solid #2E5939;
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+
+
+/************************************* 
+                HEADER
+****************************************/
+
+.header img {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************************************* 
+            FIN HEADER
+****************************************/
+
+/************************************* 
+            FOOTER 
+****************************************/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titre_footer p {
+    padding-right: 10rem;
+    position: relative;
+    left: 2rem;
+    padding-left: 2rem;
+}
+
+.text_mail_politique {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text_mail_politique p {
+    position: relative;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+.trait_separation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    height: 0.1rem;
+    background-color: #2E5939;
+}
+
+.container_copyright p {
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+
+footer img {
+    padding-left: 1rem;
+    width: 3%;
+}

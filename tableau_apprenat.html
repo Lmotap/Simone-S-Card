@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations apprenant</title>
+
+    <!-- Link des fichiers CSS -->
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Typograhies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <img src="ressources/icons/Logo.png" alt="Logo du projet">
+        <div class="container_button_account">
+            <button class="button_green_medium wth27" type="button" ><a class="color-white fnt_Oswald fnt_wght_bold fnt_size_medium" href="">Mon compte</a></button>
+            <div class="green_border wth27"></div>
+        </div>
+    </div>
+
+    <div class="container_button_card">
+        <button class="button_green_medium wth30"><a class="color-white fnt_Oswald fnt_wght_bold fnt_size_medium" href=""> Choisir une carte</a></button>
+        <div class="green_border_draw"></div>
+    </div>
+
+    <!-- NAV Account-->
+
+    <!--Tableau Aprennants-->
+    <h2 class="h2_tableau">Compte rendu de mes apprenants</h2>
+
+    <div class="search_container">
+        <input type="text" id="search_bar" placeholder="Rechercher...">
+        <button type="button" id="search_button">
+            <img src="ressources/icons/loupe-icon.svg" alt="">
+        </button>
+      </div>
+
+
+      
+
+    <div class="tableau">
+        <table>
+            <tr>
+                <th scope="col">Utilisateur</th>
+                <th scope="col">Thématique</th>
+                <th scope="col">Date</th>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Communication</td>
+                <td>17/01/2010</td>
+                <td class="action-buttons">
+                    <button onclick="deleteRow(this)">
+                        <img src="ressources/icons/download-icon.svg" alt=""></button>
+                    <button onclick="downloadRow(this)">
+                        <img src="ressources/icons/deletenote.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>Lokman</td>
+                <td>Technique</td>
+                <td>17/01/2010</td>
+                <td class="action-buttons">
+                    <button onclick="deleteRow(this)">
+                        <img src="ressources/icons/download-icon.svg" alt="">
+                    </button>
+                    <button onclick="downloadRow(this)">
+                        <img src="ressources/icons/deletenote.png" alt="">
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+            <button id="button_refresh">
+                <img src="ressources/icons/refresh-icon.svg" alt="">
+            </button>
+
+    </div>
+
+    <div class="nav_side">
+        <div class="box_green_doc">
+            <img src="ressources/icons/document-icon.svg" alt="">
+            <div class="box_green"></div>
+        </div>
+
+        <div class="box_green_info">
+            <img src="ressources/icons/user-icon.svg" alt="">
+            <div class="box_green"></div>
+        </div>
+
+        <div class="box_green_contact">
+            <img src="ressources/icons/contact-icon.svg" alt="">
+            <div class="box_green"></div>
+        </div>
+
+        
+
+        <div class="box_green_exit">
+            <img src="ressources/icons/log-out-icon.svg" alt="">
+            <div class="box_green"></div>
+        </div>
+    </div>
+</section>

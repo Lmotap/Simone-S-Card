@@ -1,0 +1,325 @@
+/* Propriétés liens */
+
+a:hover {
+    text-decoration: underline;
+}
+
+/************************************* 
+            UTILITY CLASS 
+****************************************/
+
+.background-color-white {
+    background-color: #F8F7F4;
+}
+
+
+
+.wdth23 {
+    width: 23rem;
+}
+
+.wdth24 {
+    width: 24rem;
+}
+
+.wdth26 {
+    width: 26rem;
+}
+
+.wth27 {
+    width: 27rem;
+}
+
+.wth28 {
+    width: 28rem;
+}
+
+.wth30 {
+    width: 30rem;
+}
+
+.wth31 {
+    width: 31rem;
+}
+
+.color_black {
+    color: black;
+}
+
+.color_grey {
+    color: #404040;
+}
+
+.color_green {
+    color: #2E5939;
+}
+
+.fnt_Oswald {
+    font-family: "Oswald";
+}
+
+.fnt_Roboto {
+    font-family: "Roboto";
+}
+
+.fnt_size_large {
+    font-size: 3.5em;
+}
+
+.color-white {
+    color: #F8F7F4;
+}   
+
+.fnt_size_medium {
+    font-size: 2em;
+}
+
+.fnt_wght_bold {
+    font-weight: 700;
+}
+
+.fnt_wght_semibold {
+    font-weight: 600;
+}
+
+/************************************* 
+            UTILITY CLASS 
+****************************************/
+
+
+/************************************* 
+            PAGE D'INSCRIPTION 
+****************************************/
+
+.img_container_login, 
+.img_container_inscription  {
+    width: 35%;
+    height: auto;
+}
+
+.cardGreen {
+    width: 45px;
+    height: 100px;
+    background-color: #808C80;
+    rotate: 40deg;
+}
+
+label {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.button_text_medium {
+    width: 30rem;
+    border-radius: 20px;
+    height: 2.5rem;
+    border: 0.3rem solid #2E5939;
+}
+
+.button_green_medium {
+    height: 3.5rem;
+    border-radius: 35px;
+    background-color: #2E5939;
+    border-style: none;
+    line-height: 0.5rem;
+}
+
+/* Ellipse décorant l'img des pages login et inscription */
+
+.ellipse_img {
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    background: black;
+}
+
+.ellipse_img {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    background-color: #2E5939;
+    opacity: 0.2;
+}
+
+.ellipse_top {
+    width: 6rem !important; 
+    height: 6rem !important;
+}
+
+
+/************************************* 
+            PAGE SE CONNECTER
+****************************************/
+
+/* Checkbox */
+
+.checkbox_input {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10%;
+    border: solid #2E5939;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transform: translate(10rem,-2.5rem);
+}
+
+input[type=checkbox]:checked {
+    border: solid #2E5939;
+    border-radius: 10%;
+}
+
+input[type='checkbox']:checked:before
+{
+    content:'';
+    width: 2rem;
+    height: 2rem;
+    position:absolute;
+    top: 3%;
+    left: 2%;
+    background:none #2E5939;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    opacity:0.5;
+}
+
+.forget_mdp_or_alreadyHaveAccount p, a {
+    font-family: "Oswald";
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+
+
+/************************************* 
+            PAGE D'ACCUEIL
+****************************************/
+
+
+
+.slogan_main {
+    font-family: "Roboto";
+    font-size: 1.8em;
+    color: #404040;
+}
+
+.point_hero_card {
+    font-family: "Roboto";
+    color: #2E5939;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.container_hero_card img {
+    width: 20%;
+    height: auto;
+}
+
+.card_hero_card {
+    background-color: #2E5939;
+    width: 100px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.buttonSeConnecterMain {
+    width: 30rem !important;
+    height: 4.5rem !important;
+    font-size: 2em;
+}
+
+
+/************************************* 
+            PAGE D'ACCUEIL
+****************************************/
+
+/* Section trois carte */
+
+.text_button {
+    font-size: 2.5em;
+    font-weight: 500;
+} 
+
+.icon_flex_card {
+    width: 7%;
+}
+
+.box_card1 p {
+    font-size: 1em;
+}
+
+.three_card {
+    width: 50rem;
+    height: 7rem;
+    border-radius: 15px;
+    background-color: #2E5939;
+    border-style: none;
+    line-height: 0.5rem;
+}
+
+/************************************* 
+                HEADER
+****************************************/
+
+header img {
+    width: 2%;
+    height: 2%
+}
+
+/************************************* 
+            FOOTER 
+****************************************/
+
+.titre_footer p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.text_mail_politique p {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.container_copyright p {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+
+/************************************* 
+            SCROLL BAR
+****************************************/
+body {
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #f8f7f4;
+    --sb-size: 10px;
+}
+
+body::-webkit-scrollbar {
+width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+background: var(--sb-track-color);
+border-radius: 25px;
+}
+
+body::-webkit-scrollbar-thumb {
+background: var(--sb-thumb-color);
+border-radius: 25px;
+border: 3px solid #2e5939;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+body {
+    scrollbar-color: var(--sb-thumb-color)
+                    var(--sb-track-color);
+}
+}
