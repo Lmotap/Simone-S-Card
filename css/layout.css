@@ -18,6 +18,11 @@ body {
     margin: 0;
 }
 
+:root {
+    --white-main: #ffff;
+    --green-main: #2E5939;
+}
+
 /************************************* 
             UTILITY CLASS 
 ****************************************/
@@ -395,6 +400,10 @@ body {
 
 .container_button_account :nth-child(0n+1) {
     width: 20%;
+}
+
+@media screen {
+
 }
 
 /************************************* 

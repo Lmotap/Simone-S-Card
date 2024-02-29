@@ -210,7 +210,7 @@ input[type='checkbox']:checked:before
 
 .point_hero_card {
     font-family: "Roboto";
-    color: #2E5939;
+    --green-main: #2E5939;
     font-size: 2em;
     font-weight: 800;
 }
@@ -258,6 +258,7 @@ input[type='checkbox']:checked:before
     height: 7rem;
     border-radius: 15px;
     background-color: #2E5939;
+
     border-style: none;
     line-height: 0.5rem;
 }
